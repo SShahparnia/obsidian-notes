@@ -1,0 +1,11 @@
+# macOS cruft
+.DS_Store
+
+# Obsidian settings you don’t need in git
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/graph.json
+
+# Optional: plugin caches (add as you see them)
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/cache/
