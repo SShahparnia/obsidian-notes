@@ -5,7 +5,10 @@
 .obsidian/workspace.json
 .obsidian/appearance.json
 .obsidian/graph.json
+.obsidian/app.json
+.obsidian/core-plugins.json
 
-# Optional: plugin caches (add as you see them)
+# Optional: plugin caches
 .obsidian/plugins/*/data.json
 .obsidian/plugins/*/cache/
+
