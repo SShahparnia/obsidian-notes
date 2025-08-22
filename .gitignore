@@ -1,14 +1,18 @@
 # macOS cruft
 .DS_Store
 
-# Obsidian settings you don’t need in git
+# Obsidian settings we don't need in Git
 .obsidian/workspace.json
 .obsidian/appearance.json
 .obsidian/graph.json
 .obsidian/app.json
 .obsidian/core-plugins.json
 
-# Optional: plugin caches
+# Ignore community plugin configs
+.obsidian/community-plugins.json
+.obsidian/plugins/
+
+# Optional: sometimes plugins create cache or data.json files
 .obsidian/plugins/*/data.json
 .obsidian/plugins/*/cache/
 
