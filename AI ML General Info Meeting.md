@@ -15,7 +15,11 @@
 - Related Work
 - Execution Plan
 	- Collect and preprocess data (Week 1-2)
-	- train baseline models (Week 3-4)
-	- ipmlement advanced ML/DL models
-	- Compare performance (AUC, Precision-Recall)
-	- Deploy prototype with API or dashboard (Week 8)
+	- Train baseline models (Week 3-4)
+	- Implement advanced ML/DL models (Week 5-6)
+	- Compare performance (AUC, Precision-Recall) (Week 7)
+	- Deploy prototype with API or dashboard (Week 8
+## Requirements
+- Functional REquirements
+- Non-functinoal requirements
+- 
