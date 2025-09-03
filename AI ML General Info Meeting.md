@@ -14,3 +14,8 @@
 - Algorithm/Methodology
 - Related Work
 - Execution Plan
+	- Collect and preprocess data (Week 1-2)
+	- train baseline models (Week 3-4)
+	- ipmlement advanced ML/DL models
+	- Compare performance (AUC, Precision-Recall)
+	- Deploy prototype with API or dashboard (Week 8)
