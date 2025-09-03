@@ -20,6 +20,8 @@
 	- Compare performance (AUC, Precision-Recall) (Week 7)
 	- Deploy prototype with API or dashboard (Week 8
 ## Requirements
-- Functional REquirements
-- Non-functinoal requirements
+- Functional Requirements
+	- System must detect fraudulent transactions in real-time
+	- Mus
+- Non-functional requirements
 - 
