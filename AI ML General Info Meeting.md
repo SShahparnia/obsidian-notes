@@ -22,6 +22,9 @@
 ## Requirements
 - Functional Requirements
 	- System must detect fraudulent transactions in real-time
-	- Mus
+	- Must process incoming transaction streams from a database or API
+	- Provide alerts/flags for suspicious transactions
+	- Store results in a cloud database (AWS S3/ DynamoDB/ SQL)
+	- Dashboard for monitoring model predictions and fraud statistics
 - Non-functional requirements
-- 
+	- Scalability: Should handle millions of transactions daily. (The system should still work if many people use it at once So;: Cloud au
