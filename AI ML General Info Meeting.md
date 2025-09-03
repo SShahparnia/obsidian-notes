@@ -29,4 +29,4 @@
 - Non-functional requirements
 	- Scalability: Should handle millions of transactions daily. (The system should still work if many people use it at once. Solution: Cloud autoscaling (AWS EC2, GCP)
 	- Performance: Fraud detection latency < 1 second per transaction. (Detect Fraud quickly so that banks detect on time. Solution: Caching)
-	- Reliability: System uptime >= 99% ( Should work most of the time without 
+	- Reliability: System uptime >= 99% ( Should work most of the time without crashing. Sol:
