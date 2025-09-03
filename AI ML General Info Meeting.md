@@ -32,3 +32,4 @@
 	- Reliability: System uptime >= 99% ( Should work most of the time without crashing. Sol: Redundancy/Monitoring)
 	- Maintainability: Easy model retraining & updates (Easy Retraining Solution: Centralized Data / Pipeline)
 	- Deployment: Cloud-ready (AWS EC2/ SageMaker, Docker). (so it can be used anywhere)
+## Project Ideas? 
