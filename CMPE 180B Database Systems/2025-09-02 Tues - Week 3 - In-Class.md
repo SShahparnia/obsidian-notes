@@ -164,4 +164,100 @@ PK (student_id, course_id)
 }
 ```
 
+```mermaid
+
+erDiagram
+
+DEPARTMENT ||--o{ INSTRUCTOR : "has"
+
+DEPARTMENT ||--o{ COURSE : "offers"
+
+DEPARTMENT ||--o{ STUDENT : "is major for"
+
+  
+
+INSTRUCTOR }o--o{ COURSE : "teaches"
+
+STUDENT }o--o{ COURSE : "enrolls in"
+
+  
+
+DEPARTMENT {
+
+int dept_id PK
+
+string name
+
+string building
+
+numeric budget
+
+}
+
+  
+
+INSTRUCTOR {
+
+int instructor_id PK
+
+string name
+
+numeric salary
+
+int dept_id FK
+
+}
+
+  
+
+COURSE {
+
+string course_id PK
+
+string title
+
+int dept_id FK
+
+}
+
+  
+
+STUDENT {
+
+int student_id PK
+
+string name
+
+int major_dept_id FK
+
+}
+
+  
+
+TEACHES {
+
+int instructor_id FK
+
+string course_id FK
+
+PK (instructor_id, course_id)
+
+}
+
+  
+
+ENROLLMENT {
+
+int student_id FK
+
+string course_id FK
+
+string grade "A,B,C,D,F,I,W"
+
+PK (student_id, course_id)
+
+}
+
+  
+
 ```
