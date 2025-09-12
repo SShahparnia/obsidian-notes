@@ -3,10 +3,12 @@
 - uname -a 
 - lsmod
 	- lists the kernel modules that you have installed on your machine
-- rmod 
+- rmmod 
 	- remove modules from the machine
 - insmod
 	- install new modules on the machine
 - modinfo "module-name"
 	- module information on the system of specified module
+- modprobe
+	- loads or removes kernel modules
 - 
