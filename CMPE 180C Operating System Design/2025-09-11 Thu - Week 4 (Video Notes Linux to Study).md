@@ -7,5 +7,6 @@
 	- remove modules from the machine
 - insmod
 	- install new modules on the machine
-- modinfo
-	- module information on the system
+- modinfo "module-name"
+	- module information on the system of specified module
+- 
