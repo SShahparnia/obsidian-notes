@@ -11,4 +11,6 @@
 	- module information on the system of specified module
 - modprobe
 	- loads or removes kernel modules
-- 
+- EXAMPLE:
+	  lsmod | grep fs 
+		  lists the modules that have "fs" in
