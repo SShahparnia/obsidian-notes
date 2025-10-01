@@ -11,7 +11,45 @@
 - Users
 Diagram Description Hierarchy
 Hardware/OS/System/application program/ users
-![[Pasted image 20250930171613.png]]
+```mermaid
+flowchart TB
+    subgraph Users
+        U1[User 1]
+        U2[User 2]
+        U3[User 3]
+        Un[User n]
+    end
+
+    subgraph Programs[System and Application Programs]
+        Compiler[Compiler]
+        Assembler[Assembler]
+        TextEditor[Text Editor]
+        Dots1[...]:::ghost
+        Database[Database System]
+    end
+
+    subgraph OS[Operating System]
+    end
+
+    subgraph HW[Computer Hardware]
+    end
+
+    %% Connections
+    U1 <--> Compiler
+    U2 <--> Assembler
+    U3 <--> TextEditor
+    Un <--> Database
+
+    Compiler --> OS
+    Assembler --> OS
+    TextEditor --> OS
+    Dots1 --> OS
+    Database --> OS
+    OS --> HW
+
+    classDef ghost fill=none,stroke=none;
+
+```
 ### Computer System Organization
 ## Computer Startup
 - Bootstrap Program - loaded at power-up/reboot
