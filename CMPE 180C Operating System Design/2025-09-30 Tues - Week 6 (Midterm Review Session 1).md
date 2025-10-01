@@ -17,5 +17,13 @@ Hardware/OS/System/application program/ users
 - Bootstrap Program - loaded at power-up/reboot
 	- stored in ROM (read-only memory) or EPROM (erasable progammable ROM)(firmware)
 	- Software but it's firm (not erasable)
-### Computer System Organization
-- 
+### Computer System Operation
+- I/O & CPU can execute concurrently
+- Device controller has local buffer
+- CPU moves data from/to main mem to/from local buffers
+- I/O is from device to local buffer of controller
+- Controller informs CPU finished operation by interrupt
+### Common Functions of Interrupts
+- TRAP -> software-generated interrupt
+- interrupt vector -> contain all addresses of all services routines (table of all interrupt error addresses)
+### I/O Structure
