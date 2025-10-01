@@ -48,7 +48,46 @@ registers <---> cache for each cpu and then --> memory
 ## Process Management
 - Program is passive entity/Process is active entity
 ## I/O Subsystem
-Character Devices (like pipes: data flows throuhg in)
+Character Devices (like pipes: data flows through in order)
 - keyboards, mice, serial ports, printers.
-Block Devices
-- HDD, SSD, Network, etc
+Block Devices (transfer data in fixed size blocks)
+- Hard drives, SSDs, USB storage, CD/DVD drives.
+## Computing Environments
+### Client-Server
+### Distributed
+### Virtualization
+- Traditional System Layers
+	- Hardware -> Kernel -> Processes
+- Virtual System Layers
+	- Hardware -> Virtual Machine Manager (Hypervisor) -> Vm1/2/3 -> Kernel (for each VM) -> Processes (under each VM)
+### Cloud Computing
+- public cloud, private cloud, hybrid cloud
+- SaaS (apps via web; ex. word processor), PaaS (Software stack ready for application use via web; ex. DB server), IaaS (storage available for backup use)
+- infrastructure
+```mermaid
+flowchart TD
+    Internet([Internet])
+    Firewall[Firewall]
+    LoadBalancer[Load Balancer]
+
+    subgraph Cloud[Cloud Infrastructure]
+        Servers1[Servers <br> Virtual Machines]
+        Servers2[Servers <br> Virtual Machines]
+        Storage[Storage]
+        CloudMgmt[Cloud Management Services]
+    end
+
+    CloudInterface[Cloud Customer Interface]
+
+    Internet --> Firewall --> LoadBalancer
+    LoadBalancer --> Servers1
+    LoadBalancer --> Servers2
+    LoadBalancer --> Storage
+
+    Internet -.-> CloudInterface
+    CloudInterface -.-> CloudMgmt
+    CloudMgmt --> Servers1
+    CloudMgmt --> Servers2
+    CloudMgmt --> Storage
+
+```
