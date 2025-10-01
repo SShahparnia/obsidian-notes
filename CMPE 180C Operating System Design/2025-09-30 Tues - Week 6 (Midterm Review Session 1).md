@@ -1,6 +1,6 @@
 # Chapter 1 - Introduction
 ## Operating System
-- Resource Allocator - 
+- Resource Allocator - manages resources
 - Control Program - ctrls exec to prevent errors and use
 ### Computer System Structure
 - Hardware
