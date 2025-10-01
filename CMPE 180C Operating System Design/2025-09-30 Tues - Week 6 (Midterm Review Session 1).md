@@ -41,4 +41,14 @@ registers <---> cache for each cpu and then --> memory
 	- Software
 		- Exceptions or Traps
 	- Hardware
-- D
+- Dual-Mode (user & Kernel)
+	- Mode bit (prov. by hardware)
+	- Some instructions *privileged*, only exec in kernel mode
+	- System call changes to user, return from call resets to user
+## Process Management
+- Program is passive entity/Process is active entity
+## I/O Subsystem
+Character Devices (like pipes: data flows throuhg in)
+- keyboards, mice, serial ports, printers.
+Block Devices
+- HDD, SSD, Network, etc
