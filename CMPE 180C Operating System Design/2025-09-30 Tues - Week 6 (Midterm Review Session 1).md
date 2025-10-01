@@ -26,4 +26,10 @@ Hardware/OS/System/application program/ users
 ### Common Functions of Interrupts
 - TRAP -> software-generated interrupt
 - interrupt vector -> contain all addresses of all services routines (table of all interrupt error addresses)
-### I/O Structure
+## Storage Hierarchy
+- Speed
+- Cost
+- Volatility
+### Storage-Device Hierarchy
+- Registers <-> Cache <-> Main memory <-> ssd <-> hdd <-> optical disk <-> magnetic tape
+- 
