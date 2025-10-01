@@ -32,4 +32,13 @@ Hardware/OS/System/application program/ users
 - Volatility
 ### Storage-Device Hierarchy
 - Registers <-> Cache <-> Main memory <-> ssd <-> hdd <-> optical disk <-> magnetic tape
-- 
+## Systemic Multiprocessing Architecture
+CPU0 --- CPU1 --- CPU2
+registers <---> cache for each cpu and then --> memory
+
+## OS operations
+- Interrupt Driven
+	- Software
+		- Exceptions or Traps
+	- Hardware
+- D
