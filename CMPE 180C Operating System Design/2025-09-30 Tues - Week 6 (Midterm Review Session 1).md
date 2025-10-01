@@ -13,26 +13,22 @@ Diagram Description Hierarchy
 Hardware/OS/System/application program/ users
 ```mermaid
 flowchart TB
-    subgraph Users
-        U1[User 1]
-        U2[User 2]
-        U3[User 3]
-        Un[User n]
-    end
+    %% Users
+    U1[User 1]
+    U2[User 2]
+    U3[User 3]
+    Un[User n]
 
-    subgraph Programs[System and Application Programs]
-        Compiler[Compiler]
-        Assembler[Assembler]
-        TextEditor[Text Editor]
-        Dots1[...]:::ghost
-        Database[Database System]
-    end
+    %% System and Application Programs
+    Compiler[Compiler]
+    Assembler[Assembler]
+    TextEditor[Text Editor]
+    Ellipsis[...] 
+    Database[Database System]
 
-    subgraph OS[Operating System]
-    end
-
-    subgraph HW[Computer Hardware]
-    end
+    %% OS and Hardware
+    OS[Operating System]
+    HW[Computer Hardware]
 
     %% Connections
     U1 <--> Compiler
@@ -43,11 +39,9 @@ flowchart TB
     Compiler --> OS
     Assembler --> OS
     TextEditor --> OS
-    Dots1 --> OS
+    Ellipsis --> OS
     Database --> OS
     OS --> HW
-
-    classDef ghost fill=none,stroke=none;
 
 ```
 ### Computer System Organization
@@ -129,3 +123,4 @@ flowchart TD
     CloudMgmt --> Storage
 
 ```
+# Chapter 2 - Operating System Structure
