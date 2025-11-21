@@ -77,9 +77,12 @@ class Solution:
 	
 ```
 ## Why it works:
-
--
-
+1. if the lengths differ, they can't be anagrams which returns false immediately (base case)
+2. two empty dictionaries are created to store the counts for each string (hash map)
+3. The loop runs through each index in the string and for each char:
+	1. countS adds one to the count of s[i]
+	2. countT adds one to the count of t[i]
+	3. using get(char, 0) ensures missing char sta
 
 ## Mistakes or Traps:
 
