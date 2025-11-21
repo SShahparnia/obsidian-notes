@@ -50,8 +50,10 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 
 ## Key Idea: 
 
-
-## Steps to Solve: Hash set implementation 
+- return true if count(char) in string s = string t
+- otherwise false
+## Steps to Solve: HashMap implementation 
+1. 
 
 ## Code:
 
