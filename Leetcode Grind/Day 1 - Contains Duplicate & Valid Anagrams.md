@@ -53,7 +53,10 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 - return true if count(char) in string s = string t
 - otherwise false
 ## Steps to Solve: HashMap implementation 
-1. 
+1. Check if strings are the same length
+	1. if they're not we automatically return false
+2. define our hashmaps for strings 's' and 't'
+3. loop through the first hashmap
 
 ## Code:
 
