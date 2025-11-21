@@ -87,9 +87,12 @@ class Solution:
 5. if the 2 dict countS == countT, anagram
 ## Mistakes or Traps:
 1. assuming same length is enough
-2. 
+2. not having length check then using range(len(s)) which assumes s and t are same length
+3. case sensitivity not enforced
+4. inefficient for large strings
 
 ## Complexity:
+
 
 
 
