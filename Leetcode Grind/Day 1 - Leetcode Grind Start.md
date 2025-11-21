@@ -15,8 +15,10 @@
 5. If not True, we add them to the hashset 
 6. Return false if we find that we have no duplicates when trying to add to our hashset
 ## Code:
-```
-
+```python
+Class Solution:
+	def hasDuplicate(self, nums: List[int]) -> bool:
+	
 
 ```
 
