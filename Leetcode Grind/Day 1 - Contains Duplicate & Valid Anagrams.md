@@ -28,7 +28,7 @@ Class Solution:
 ```
 ## Why it works:
 
-Brute force, even with a sorted list, is too primitive. The space complexity for them is good as we are directly accessing the original 
+Brute force, even with a sorted list, is too primitive. The space complexity for them is good as we are directly accessing the original array, howevever, using a hashset we can maximize both the time and space complexity at O(n). this works by iterating through the original array nums[], adding each value to the hashset, then seeing if there is another of same in the hashset again after each iteration.
 
 ## Mistakes or Traps:
 
