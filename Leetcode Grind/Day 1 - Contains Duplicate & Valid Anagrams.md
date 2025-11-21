@@ -48,5 +48,27 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 - Space: O(n)
 # Valid Anagram
 
+## Key Idea: 
+
+- return true if we have duplicate values in our integer array (hash map)
+- We could use brute force
+- brute force comparisons + sorted list
+- hashmap (set)
+## Steps to Solve: Hash set implementation 
+
+## Code:
+
+## Why it works:
+
+
+
+## Mistakes or Traps:
+
+
+## Complexity:
+
+
+
+
   
 
