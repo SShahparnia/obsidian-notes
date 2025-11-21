@@ -32,6 +32,8 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 
 ## Mistakes or Traps:
 
+- one mistake i made at first was improper syntax
+
 ## Complexity:
 
 ### We could use brute force 
