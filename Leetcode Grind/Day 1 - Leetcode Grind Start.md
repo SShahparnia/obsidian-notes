@@ -16,9 +16,7 @@
 6. Return false if we find that we have no duplicates when trying to add to our hashset
 ## Code:
 ```
-Class Solution:
-	def hasDuplicate(self, nums: List[int]) -> bool:
-	
+
 
 ```
 
