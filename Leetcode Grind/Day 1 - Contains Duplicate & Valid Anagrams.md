@@ -32,7 +32,8 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 
 ## Mistakes or Traps:
 
-- one mistake i made at first was improper syntax
+- one mistake i made at first was improper syntax (nested for loops because I didn't take my time and think through what the logic of my code was actually doing).
+	- having a second nested for loop instead of the conditional results in updated the variable i instead of performing a comparison with the hashset
 
 ## Complexity:
 
