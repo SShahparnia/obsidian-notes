@@ -64,7 +64,12 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 
 ```python
 Class Solution:
-	def 
+	def isAnagram(self, s: str, t: str) -> bool:
+		if len(s) != len(t):
+			return False
+		
+		countS, countT = {}, {}
+	
 ```
 ## Why it works:
 
