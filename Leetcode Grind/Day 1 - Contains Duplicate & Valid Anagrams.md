@@ -50,6 +50,7 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 
 ## Key Idea: 
 
+
 ## Steps to Solve: Hash set implementation 
 
 ## Code:
