@@ -82,9 +82,12 @@ class Solution:
 3. The loop runs through each index in the string and for each char:
 	1. countS adds one to the count of s[i]
 	2. countT adds one to the count of t[i]
-	3. using get(char, 0) ensures missing char sta
-
+	3. using get(char, 0) ensures missing char start at 0
+4. after loop each dictionary contains exact num of occurrence for each char in strings s,t
+5. if the 2 dict countS == countT, anagram
 ## Mistakes or Traps:
+1. assuming same length is enough
+2. 
 
 ## Complexity:
 
