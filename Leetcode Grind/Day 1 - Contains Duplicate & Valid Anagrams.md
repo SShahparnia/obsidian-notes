@@ -96,7 +96,8 @@ class Solution:
 	- O(n + m)
 - Space complexity:
 	- O(1)
-		- for typical anagram problems, the complexity is O(1) as we have the fix
+		- for typical anagram problems, the complexity is O(1) as we have the fixed alphabet
+		- for problems where we have many unique characters in the string the worst case is O(k)
 
 
 
