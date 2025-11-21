@@ -1,25 +1,14 @@
-### 
+# Contains Duplicate
 
-Contains Duplicate
-
-  
-
-Key Idea: 
+## Key Idea: 
 
 - return true if we have duplicate values in our integer array (hash map)
-    
-
 - We could use brute force
-    
 - brute force comparisons + sorted list
-    
 - hashmap (set)
-    
-
-Steps to Solve: Hash set implementation 
+## Steps to Solve: Hash set implementation 
 
 1. We create our hash set
-    
 2. We check each value in our array nums
     
 3. We check if they’re in our hashset already
@@ -31,22 +20,22 @@ Steps to Solve: Hash set implementation 
 6. Return false if we find that we have no duplicates when trying to add to our hashset
     
 
-Code:
+## Code:
 
 Class Solution:
 
   
   
 
-Why it works:
+## Why it works:
 
   
 
-Mistakes or Traps:
+## Mistakes or Traps:
 
   
 
-Complexity:
+## Complexity:
 
 - We could use brute force 
     
@@ -74,31 +63,7 @@ Complexity:
 
   
 
-Valid Anagram
+# Valid Anagram
 
   
 
-Key Idea:
-
-  
-
-Steps to Solve:
-
-  
-
-Code:
-
-  
-
-Why it works:
-
-  
-
-Mistakes or Traps:
-
-  
-
-Complexity:
-
-  
-**
