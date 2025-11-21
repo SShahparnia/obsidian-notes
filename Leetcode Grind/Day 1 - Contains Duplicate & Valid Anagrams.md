@@ -56,7 +56,9 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 1. Check if strings are the same length
 	1. if they're not we automatically return false
 2. define our hashmaps for strings 's' and 't'
-3. loop through the first hashmap
+3. loop through each index in s
+4. look at s[i], if exists in countS then + 1
+5. same idea for string t countT + 1
 
 ## Code:
 
