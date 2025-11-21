@@ -93,9 +93,9 @@ class Solution:
 
 ## Complexity:
 - Time complexity:
-	- O()
+	- O(n + m)
 - Space complexity:
-	- 
+	- O(1)
 
 
 
