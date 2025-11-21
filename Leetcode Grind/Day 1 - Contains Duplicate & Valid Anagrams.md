@@ -59,9 +59,13 @@ Brute force, even with a sorted list, is too primitive. The space complexity for
 3. loop through each index in s
 4. look at s[i], if exists in countS then + 1
 5. same idea for string t countT + 1
-
+6. return countS == countT (compare the two hashmaps)
 ## Code:
 
+```python
+Class Solution:
+	def 
+```
 ## Why it works:
 
 ## Mistakes or Traps:
