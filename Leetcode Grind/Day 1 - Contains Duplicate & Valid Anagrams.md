@@ -26,9 +26,9 @@ Class Solution:
 		return False
 
 ```
-
-  
 ## Why it works:
+
+Brute force, even with a sorted list, is too primitive. The space complexity for them is good as we are directly accessing the original 
 
 ## Mistakes or Traps:
 
