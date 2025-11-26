@@ -95,7 +95,7 @@ class Solution:
 - Time complexity:
 	- O(n + m)
 		- O(n) if the strings are the same length
-		- O(n + m) worst case i
+		- O(n + m) worst case if the strings have different lengths
 - Space complexity:
 	- O(1)
 		- for typical anagram problems, the complexity is O(1) as we have the fixed alphabet
