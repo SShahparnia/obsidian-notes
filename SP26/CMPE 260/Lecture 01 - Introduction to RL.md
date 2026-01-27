@@ -28,6 +28,23 @@ flowchart LR
 - Emphasis on methods that scale to deep neural networks
 
 ## Machine Learning vs Reinforcement Learning
+```mermaid
+flowchart LR
+    subgraph Supervised_Learning
+        X[(x inputs)] --> Model
+        Y[(y labels)] --> Model
+        Model -->|"f(x) approximates y"| Output
+    end
+
+    subgraph Reinforcement_Learning
+        Agent --> Action
+        Action --> Environment
+        Environment --> Observation
+        Observation --> Agent
+        Environment --> Reward
+    end
+
+```
 - Supervised learning  
   - Given labeled pairs  
   - Direct supervision  
