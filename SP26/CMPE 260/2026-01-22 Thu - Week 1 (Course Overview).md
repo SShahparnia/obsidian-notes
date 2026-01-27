@@ -1,3 +1,4 @@
+
 ---
 
 # CMPE 260 SP26
@@ -195,13 +196,3 @@ Page 13 image shows
     
 
 ---
-
-## 11. Closing
-
-- Looking forward to the semester  
-    (Page 14)
-    
-
----
-
-If you want this converted into separate Obsidian files (one per slide) or want a table of contents block for easier linking, tell me and I will generate it.
