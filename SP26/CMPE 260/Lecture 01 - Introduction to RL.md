@@ -135,10 +135,23 @@ mindmap
 - Visual input must be converted to structured state information
 
 ## Learning to Act
+```mermaid
+flowchart TD
+    Discover[Discover behavior via trial and error] --> Generalize[Generalize behavior across scenarios]
+    Generalize --> Explore[Efficient exploration]
+    Explore --> Transfer[Cross-task or cross-environment transfer]
+
+```
 - Discovering behavior through trial and error with rewards  
 - Generalizing behavior across viewpoints, objects, and scenarios  
 - Generalization is key for efficient exploration  
 - Representation learning enables transfer across tasks and environments
+```mermaid
+flowchart LR
+    RawPixels[Raw Pixels] --> FeatureExtractor[Representation Learning]
+    FeatureExtractor --> Features[Action-Relevant Features]
+
+```
 
 ## Leveraging Pretrained Models
 - Vision language action models (RT 2)  
