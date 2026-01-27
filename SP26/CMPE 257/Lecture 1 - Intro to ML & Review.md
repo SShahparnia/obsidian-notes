@@ -82,3 +82,106 @@ graph TD
     B --> D[Cluster B]
     B --> E[Cluster C]
 ```
+
+## Latent Semantic Analysis
+• Reveals hidden structure in text  
+• Reduces dimensionality of document term space  
+
+## Word Embeddings
+• Represent words as vectors  
+• Semantically similar words have similar vector positions  
+
+## Software 2.0
+• Neural networks replace manual rule writing  
+• Data becomes the behavioral source code  
+• Advantages: flexible, scalable, powerful  
+• Challenges: debugging and interpretability  
+
+## Introduction to Reinforcement Learning
+• Agent interacts with an environment  
+• Observes state s  
+• Takes action a  
+• Receives reward r  
+• Learns a policy π(a | s)
+
+### Interaction Loop
+
+```mermaid
+sequenceDiagram
+    participant Agent
+    participant Env as Environment
+    Agent->>Env: action a_t
+    Env->>Agent: state s_{t+1}, reward r_t
+```
+
+## RL Objective Functions
+
+### Return
+\[
+J(\pi) = \mathbb{E}\left[\sum_{t=0}^{\infty} \gamma^t r_t\right]
+\]
+
+### Value function
+\[
+V^\pi(s) = \mathbb{E}\left[\sum \gamma^t r_t \mid s_0=s\right]
+\]
+
+### Action value function
+\[
+Q^\pi(s,a) = \mathbb{E}\left[\sum \gamma^t r_t \mid s_0=s, a_0=a\right]
+\]
+
+## Optimization Methods Used in ML
+
+### LMS cost
+\[
+J(\theta) = \frac{1}{2m}\sum (h_\theta(x^{(i)}) - y^{(i)})^2
+\]
+
+### Gradient descent
+\[
+\theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}
+\]
+
+### Stochastic gradient descent
+\[
+\theta_j := \theta_j - \alpha (h_\theta(x^{(i)}) - y^{(i)}) x_j^{(i)}
+\]
+
+### Mini batch
+\[
+\theta := \theta - \alpha \frac{1}{b}\sum_{i \in B} \nabla J^{(i)}(\theta)
+\]
+
+### Normal equation
+\[
+\theta = (X^T X)^{-1} X^T y
+\]
+
+### Newton’s method
+\[
+\theta := \theta - H^{-1} \nabla J(\theta)
+\]
+
+## Model Assessment
+
+### Bias variance relation
+\[
+Error = Bias^2 + Variance + Noise
+\]
+
+### Error metrics
+• MSE  
+\[
+\frac{1}{n}\sum (y - \hat{y})^2
+\]
+
+• RMSE  
+\[
+\sqrt{MSE}
+\]
+
+• MAE  
+\[
+\frac{1}{n}\sum |y - \hat{y}|
+\]
