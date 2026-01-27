@@ -8,6 +8,14 @@
 
 ## Meaning of Deep Reinforcement Learning
 - Sequential decision making problems  
+
+```mermaid
+flowchart LR
+    O1[Observe] --> A1[Take Action]
+    A1 --> O2[Observe]
+    O2 --> A2[Take Action]
+```
+
   - Systems make multiple decisions from a stream of observations  
   - Observe, act, observe, act  
 - Solutions include:  
