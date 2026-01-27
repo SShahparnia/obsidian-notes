@@ -1,137 +1,60 @@
-# CMPE 260 Reinforcement Learning
-
+# CMPE 260 Reinforcement Learning  
 ## Class Logistics
 
-- Instructor: Bertin Cordova-Diba, Ph.D.
-    
-- ISA: TBD
-    
-- Topics introduced:
-    
-    - Course goals and expectations
-        
-    - Introduction to RL
-        
-    - Introduction to Deep RL
-        
-- Syllabus partially published
-    
-- Office hours and info available on Canvas and course website
-    
-- Lecture format: In person, ENG 343
-    
-- Office hours: Tue and Thu, 1:00 PM to 2:00 PM
-    
-    - Walk in or by appointment
-        
+- Instructor: Bertin Cordova-Diba, Ph.D.  
+- ISA: TBD  
+- Topics for the first day:  
+  - Course goals and logistics  
+  - Introduction to Reinforcement Learning  
+  - Introduction to Deep Reinforcement Learning  
+- Syllabus partially published  
+- Office hours posted on Canvas and course website  
+- Lecture location: ENG 343  
+- Office hours: Tuesday and Thursday, 1:00 PM to 2:00 PM (walk in or appointment)
 
 ## Prerequisites
 
-- Required courses: CMPE 252 or 255 or 257
-    
-- Math background:
-    
-    - Multivariable calculus
-        
-    - Linear algebra
-        
-    - Statistics
-        
-- Machine learning background:
-    
-    - Supervised and unsupervised learning
-        
-    - SGD
-        
-    - Core calculus and linear algebra topics
-        
-- Deep learning background:
-    
-    - Backpropagation
-        
-    - Neural networks
-        
-    - Sequence models
-        
-- Tutorials provided:
-    
-    - PyTorch and Python for RL
-        
-    - Gymnasium library
-        
-    - Stable Baselines3
-        
+- CMPE 252 or CMPE 255 or CMPE 257  
+- Math foundations: multivariable calculus, linear algebra, statistics  
+- Machine learning background: supervised learning, unsupervised learning, SGD  
+- Deep learning background: back-propagation, neural networks, sequence models  
+- Tutorials provided: PyTorch, Gymnasium, Stable Baselines3
 
 ## Coursework and Grading
 
-- Quizzes: 10 percent
-    
-- Written assignments: 10 percent
-    
-- Programming assignments: 10 percent
-    
-- Midterm exam: 25 percent
-    
-- Final exam: 25 percent
-    
-- Course project: 20 percent total
-    
-    - Proposal: 2 percent
-        
-    - Milestones: 3 percent
-        
-    - Presentation: 5 percent
-        
-    - Final paper: 10 percent
-        
-- Written assignments: theory and problem solving
-    
-- Programming assignments: RL methods in PyTorch and Gymnasium
-    
-- Project details:
-    
-    - Teams of 3
-        
-    - Custom topics allowed
-        
-    - Default project available
-        
-    - Teams formed end of week 2
-        
+- Quizzes: 10 percent  
+- Written assignments: 10 percent  
+- Programming assignments: 10 percent  
+- Midterm exam: 25 percent  
+- Final exam: 25 percent  
+- Course project: 20 percent  
+  - Proposal: 2 percent  
+  - Milestones: 3 percent  
+  - Presentation: 5 percent  
+  - Paper: 10 percent  
+- Written assignments focus on theory  
+- Programming assignments use PyTorch and Gymnasium  
+- Project teams of 3 formed end of week 2  
+- Students may propose their own topic or use default
 
 ## Exams
 
-- Midterm and final
-    
-- Each exam has a written session and an oral session
-    
-- Dates will be updated in the next syllabus release
-    
+- Midterm exam  
+- Final exam  
+- Each exam includes a written session and an oral session  
+- Dates announced in next syllabus update
 
-## Policies
+## Course Policies
 
-- Full official syllabus released next Monday
-    
-- Students expected to review policies carefully
-    
+- Official syllabus releases next Monday  
+- Students must read all course policies
 
 ## Textbooks
 
-- Classical RL:
-    
-    - Sutton and Barto, _Reinforcement Learning, Second Edition_
-        
-- Deep RL (US):
-    
-    - _Deep Reinforcement Learning: Fundamentals, Research and Applications_
-        
-    - _Deep Reinforcement Learning: Frontiers of Artificial Intelligence_
-        
-- Deep RL (European):
-    
-    - Aske Plaat, _Deep Reinforcement Learning_
-        
+- Sutton and Barto, Reinforcement Learning (Second Edition)  
+- Deep RL (US): two Springer deep RL texts  
+- Deep RL (Europe): Aske Plaat, Deep Reinforcement Learning
 
-## Closing
+## Closing Notes
 
-- Instructor looks forward to a strong semester in RL
+- Instructor looks forward to the semester
