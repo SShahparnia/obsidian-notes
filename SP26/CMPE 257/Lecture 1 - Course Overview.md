@@ -1,72 +1,65 @@
-# CMPE 257 — Course Overview
+# CMPE 257 Course Overview
 
 ## Instructor
-- Zara Hajihashemi, Ph.D.
-- BS Computer Engineering
-- MS Artificial Intelligence and Robotics
-- PhD Machine Learning (healthcare and time series)
-- Senior ML Scientist at Apple
-- Founder and CEO of Cybele Health
+• Zara Hajihashemi, Ph.D.  
+  • BS in Computer Engineering  
+  • MS in Artificial Intelligence and Robotics  
+  • PhD in Machine Learning (healthcare and time series)  
+  • Senior ML Scientist at Apple  
+  • Founder and CEO of Cybele Health  
 
-## Logistics
-- Office hours: Friday 3:50–4:50 PM, ENG 281
-- ISA: Cale Smith
-- ISA office hour: Tuesday 12–1 PM (Zoom)
+## Course Logistics
+• Instructor office hours: Friday 3:50–4:50 PM, ENG 281  
+• ISA: Cale Smith  
+  • Office hour: Tuesday 12–1 PM (Zoom)  
 
 ## Honor Code
-- Allowed:
-  - Study groups
-  - Discussing homework concepts
-  - Independent solution writing
-- Not allowed:
-  - Using public GitHub solutions
-  - Reusing others’ code
-  - Using AI generated code
-- Academic integrity is strictly enforced
+• Collaborating on ideas is encouraged  
+• Each student must write solutions independently  
+• Not permitted:  
+  • Using GitHub code  
+  • Copying solutions  
+  • Using AI generated code  
+• Violations will be enforced under university policy  
 
 ## Course Project
-- Team size: 1 to 4 students
-- Topics may include:
-  - Athletics and sensors
-  - Audio and music
-  - Computer vision
-  - Finance
-  - Healthcare
-  - NLP
-  - Reinforcement learning
-  - Gaming
-  - Time series
-- Deadlines:
-  - Team formation: Jan 29
-  - Proposal due: Feb 7
-  - Presentation: 20 minutes per team
-  - Final report: 10 to 12 pages PDF
+• Teams of 1 to 4 students  
+• Suitable project areas:  
+  • Computer vision  
+  • NLP  
+  • Reinforcement learning  
+  • Health  
+  • Time series  
+  • Finance  
+  • Speech and audio  
+  • Gaming  
+  • Sensor intelligence  
+• Deadlines  
+  • Team formation: Jan 29  
+  • Proposal: Feb 7  
+  • Presentation: 20 minutes  
+  • Final report: 10–12 pages  
 
-## Course Topics
-- Intro to machine learning
-- Linear models for regression and classification
-- Feature engineering
-- Regularization: Ridge, Lasso
-- Generative models: GDA, Naive Bayes
-- Support Vector Machines and kernels
-- Neural networks and backpropagation
-- Bias and variance
-- Cross validation
-- Unsupervised learning
-- EM algorithm
-- Foundations of deep learning
-- Interpretability and fairness
-- Final project
+## Topics Covered
+• Introduction to ML  
+• Linear regression and classification  
+• Feature engineering  
+• Regularization (Ridge, Lasso)  
+• Generative models (GDA, Naive Bayes)  
+• SVMs and kernels  
+• Neural networks and backpropagation  
+• Bias and variance  
+• Cross validation  
+• Unsupervised learning  
+• EM algorithm  
+• Deep learning fundamentals  
+• Interpretability and fairness  
 
 ## Prerequisites
-- Probability
-  - Distributions
-  - Expectation
-  - Variance
-  - Conditional probability
-- Linear algebra
-  - Matrices
-  - Derivatives
-  - Eigenvectors and eigenvalues
-- Python programming
-- Course is mathematically intensive
+• Probability  
+  • Distributions, expectations, variance  
+  • Conditional probability  
+• Linear algebra  
+  • Matrices, gradients, eigenvalues  
+• Python programming  
+• Course is mathematically rigorous  
