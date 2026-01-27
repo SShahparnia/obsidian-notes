@@ -138,54 +138,56 @@ $$
 ## Optimization Methods Used in ML
 
 ### LMS cost
-\[
-J(\theta) = \frac{1}{2m}\sum (h_\theta(x^{(i)}) - y^{(i)})^2
-\]
+$$
+J(\theta) = \frac{1}{2m}\sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2
+$$
 
 ### Gradient descent
-\[
+$$
 \theta_j := \theta_j - \alpha \frac{\partial J}{\partial \theta_j}
-\]
+$$
 
 ### Stochastic gradient descent
-\[
+$$
 \theta_j := \theta_j - \alpha (h_\theta(x^{(i)}) - y^{(i)}) x_j^{(i)}
-\]
+$$
 
 ### Mini batch
-\[
+$$
 \theta := \theta - \alpha \frac{1}{b}\sum_{i \in B} \nabla J^{(i)}(\theta)
-\]
+$$
 
 ### Normal equation
-\[
+$$
 \theta = (X^T X)^{-1} X^T y
-\]
+$$
 
-### Newton’s method
-\[
+### Newton's method
+$$
 \theta := \theta - H^{-1} \nabla J(\theta)
-\]
+$$
+
 
 ## Model Assessment
 
 ### Bias variance relation
-\[
+$$
 Error = Bias^2 + Variance + Noise
-\]
+$$
 
 ### Error metrics
+
 • MSE  
-\[
-\frac{1}{n}\sum (y - \hat{y})^2
-\]
+$$
+\frac{1}{n}\sum_{i=1}^{n} (y^{(i)} - \hat{y}^{(i)})^2
+$$
 
 • RMSE  
-\[
+$$
 \sqrt{MSE}
-\]
+$$
 
 • MAE  
-\[
-\frac{1}{n}\sum |y - \hat{y}|
-\]
+$$
+\frac{1}{n}\sum_{i=1}^{n} \lvert y^{(i)} - \hat{y}^{(i)} \rvert
+$$
