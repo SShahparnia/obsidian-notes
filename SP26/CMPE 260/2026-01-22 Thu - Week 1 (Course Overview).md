@@ -1,198 +1,137 @@
+# CMPE 260 Reinforcement Learning
 
----
+## Class Logistics
 
-# CMPE 260 SP26
-
-## Reinforcement Learning
-
-Class Logistics
-
----
-
-## 1. Introductions
-
-- **Instructor**: Bertin Cordova-Diba, Ph.D.
+- Instructor: Bertin Cordova-Diba, Ph.D.
     
-- **ISA**: TBD  
-    (Page 2)
+- ISA: TBD
     
-
----
-
-## 2. Plan for Today
-
-- Course goals and logistics
+- Topics introduced:
     
-- Intro to Reinforcement Learning
+    - Course goals and expectations
+        
+    - Introduction to RL
+        
+    - Introduction to Deep RL
+        
+- Syllabus partially published
     
-- Intro to Deep Reinforcement Learning  
-    (Page 3)
+- Office hours and info available on Canvas and course website
     
-
----
-
-## 3. Information and Resources
-
-- Syllabus published (partial)
+- Lecture format: In person, ENG 343
     
-- Office hours info on Canvas and course website  
-    (Page 4)
+- Office hours: Tue and Thu, 1:00 PM to 2:00 PM
     
+    - Walk in or by appointment
+        
 
----
+## Prerequisites
 
-## 4. Lectures and Office Hours
-
-**Lectures**
-
-- In person
+- Required courses: CMPE 252 or 255 or 257
     
-- ENG 343
+- Math background:
     
-
-**Office Hours**
-
-- Walk in or by appointment
+    - Multivariable calculus
+        
+    - Linear algebra
+        
+    - Statistics
+        
+- Machine learning background:
     
-- Tue/Thu 1:00 PM to 2:00 PM  
-    (Page 5)
+    - Supervised and unsupervised learning
+        
+    - SGD
+        
+    - Core calculus and linear algebra topics
+        
+- Deep learning background:
     
-
----
-
-## 5. Pre-Requisites
-
-- CMPE 252 or 255 or 257
+    - Backpropagation
+        
+    - Neural networks
+        
+    - Sequence models
+        
+- Tutorials provided:
     
-- Multivariable calculus, linear algebra, statistics
-    
+    - PyTorch and Python for RL
+        
+    - Gymnasium library
+        
+    - Stable Baselines3
+        
 
-### Required ML Background
-
-- Supervised and unsupervised learning
-    
-- SGD, calculus, linear algebra, statistics
-    
-
-### Required Deep Learning Background
-
-- Backpropagation
-    
-- Neural networks
-    
-- Sequence models
-    
-
-### Tutorials Provided
-
-- PyTorch and Python for RL
-    
-- Gymnasium Library
-    
-- Stable Baselines3  
-    (Page 6)
-    
-
----
-
-## 6. Coursework and Grading
-
-### Grade Breakdown
+## Coursework and Grading
 
 - Quizzes: 10 percent
     
-- Written Assignments: 10 percent
+- Written assignments: 10 percent
     
-- Programming Assignments: 10 percent
+- Programming assignments: 10 percent
     
-- Midterm Exam: 25 percent
+- Midterm exam: 25 percent
     
-- Course Project: 20 percent
+- Final exam: 25 percent
+    
+- Course project: 20 percent total
     
     - Proposal: 2 percent
         
-    - Check-in Milestones: 3 percent
+    - Milestones: 3 percent
         
     - Presentation: 5 percent
         
-    - Paper: 10 percent
+    - Final paper: 10 percent
         
-- Final Exam: 25 percent  
-    (Page 7)
+- Written assignments: theory and problem solving
+    
+- Programming assignments: RL methods in PyTorch and Gymnasium
+    
+- Project details:
+    
+    - Teams of 3
+        
+    - Custom topics allowed
+        
+    - Default project available
+        
+    - Teams formed end of week 2
+        
+
+## Exams
+
+- Midterm and final
+    
+- Each exam has a written session and an oral session
+    
+- Dates will be updated in the next syllabus release
     
 
----
+## Policies
 
-## 7. Coursework Details
-
-**Written Assignments**
-
-- Theory exercises and problem solving
+- Full official syllabus released next Monday
+    
+- Students expected to review policies carefully
     
 
-**Programming Assignments**
+## Textbooks
 
-- Implement RL methods using PyTorch, Python, Gymnasium
+- Classical RL:
     
-
-**Final Project**
-
-- Teams of 3
+    - Sutton and Barto, _Reinforcement Learning, Second Edition_
+        
+- Deep RL (US):
     
-- Custom topic allowed
+    - _Deep Reinforcement Learning: Fundamentals, Research and Applications_
+        
+    - _Deep Reinforcement Learning: Frontiers of Artificial Intelligence_
+        
+- Deep RL (European):
     
-- Default project available
-    
-- Teams formed at end of week 2  
-    (Page 8)
-    
+    - Aske Plaat, _Deep Reinforcement Learning_
+        
 
----
+## Closing
 
-## 8. Course Exams
-
-- Midterm and Final
-    
-- Each includes a written and oral session
-    
-- Exact dates will be included in the next syllabus update  
-    (Page 9)
-    
-
----
-
-## 9. Course Policies
-
-- Official syllabus available next Monday
-    
-- Read policies carefully  
-    (Page 10)
-    
-
----
-
-## 10. Textbooks
-
-### Classical RL
-
-Page 11 image shows  
-**Reinforcement Learning: An Introduction (2nd Edition)**  
-By Sutton and Barto
-
-### Deep RL US Flavor
-
-Page 12 images show
-
-- _Deep Reinforcement Learning: Fundamentals, Research and Applications_
-    
-- _Deep Reinforcement Learning: Frontiers of Artificial Intelligence_
-    
-
-### Deep RL European Flavor
-
-Page 13 image shows
-
-- Aske Plaat, _Deep Reinforcement Learning_
-    
-
----
+- Instructor looks forward to a strong semester in RL
