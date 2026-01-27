@@ -117,19 +117,22 @@ sequenceDiagram
 ## RL Objective Functions
 
 ### Return
-\[
+$$
 J(\pi) = \mathbb{E}\left[\sum_{t=0}^{\infty} \gamma^t r_t\right]
-\]
+$$
+
 
 ### Value function
-\[
-V^\pi(s) = \mathbb{E}\left[\sum \gamma^t r_t \mid s_0=s\right]
-\]
+$$
+V^\pi(s) = \mathbb{E}\left[\sum_{t=0}^{\infty} \gamma^t r_t \mid s_0 = s\right]
+$$
+
 
 ### Action value function
-\[
-Q^\pi(s,a) = \mathbb{E}\left[\sum \gamma^t r_t \mid s_0=s, a_0=a\right]
-\]
+\$$
+Q^\pi(s,a) = \mathbb{E}\left[\sum_{t=0}^{\infty} \gamma^t r_t \mid s_0 = s,\ a_0 = a\right]
+$$
+
 
 ## Optimization Methods Used in ML
 
