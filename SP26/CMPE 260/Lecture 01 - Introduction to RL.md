@@ -146,17 +146,18 @@ flowchart TD
 - Generalizing behavior across viewpoints, objects, and scenarios  
 - Generalization is key for efficient exploration  
 - Representation learning enables transfer across tasks and environments
+
+## Leveraging Pre-trained Models
+- Vision language action models (RT 2)  
+- Pre-trained models can generalize better with fewer interactions  
+- Useful for complex robotic control tasks
 ```mermaid
 flowchart LR
-    RawPixels[Raw Pixels] --> FeatureExtractor[Representation Learning]
-    FeatureExtractor --> Features[Action-Relevant Features]
+    InternetData[Internet Scale VQA + Robot Action Data] --> Pretrain[Pretrain Vision-Language Model]
+    Pretrain --> RT2Model[RT-2 Model]
+    RT2Model --> RobotControl[Closed Loop Robot Control]
 
 ```
-
-## Leveraging Pretrained Models
-- Vision language action models (RT 2)  
-- Pretrained models can generalize better with fewer interactions  
-- Useful for complex robotic control tasks
 
 ## How to Build Intelligent Machines
 - Learning is central to intelligence  
@@ -186,6 +187,8 @@ flowchart LR
 - Observations from infant learning provide insights
 
 ## Summary and Recap
+```
+```
 - Reviewed definitions of RL components  
 - Reinforcement learning uses interaction, reward, and sequential decisions  
 - Deep RL scales RL methods with neural networks  
