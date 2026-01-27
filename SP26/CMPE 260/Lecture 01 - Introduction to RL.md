@@ -56,11 +56,32 @@ flowchart LR
 - Behaviors include motor control, chatbots, game playing, driving, web agents
 
 ## Shaping of Behavior
+```mermaid
+flowchart TD
+    Start[Behavior Occurs] --> Eval{Outcome?}
+    Eval -->|Praise or Pleasure| Repeat[Behavior Repeats]
+    Eval -->|Punishment or Pain| Extinct[Behavior Extinguishes]
+
+```
 - Behavior shaped by reinforcement rather than free will  
 - Behaviors followed by praise or pleasure tend to repeat  
 - Behaviors followed by punishment or pain tend to extinguish
 
 ## Why Study Reinforcement Learning
+```mermaid
+mindmap
+  root((Why Study RL))
+    Beyond_Supervision
+      Consequences_of_AI_Predictions
+      No_Direct_Supervision
+    Widely_Used
+      Performant_AI_Systems
+    Learning_From_Experience
+      Discover_New_Solutions
+    Research_Opportunities
+      Open_Problems
+
+```
 - Move beyond supervised (x, y) examples  
 - Useful when direct supervision is unavailable  
 - Fundamental for building AI that learns from experience  
@@ -68,6 +89,22 @@ flowchart LR
 - Many open research problems
 
 ## Why Study Deep Reinforcement Learning
+```mermaid
+mindmap
+  root((Decision-Making Problems))
+    AI_Agents
+      Robots
+      Autonomous_Vehicles
+      Web_Assistants
+    Human_Interaction
+      Chatbots
+      Recommenders
+    Future_Outcomes
+      Feedback_Loops
+    No_Labels
+      Non_Differentiable_Objectives
+
+```
 - Decision making problems are common across agents, robots, vehicles, assistants  
 - Useful when interacting with people  
 - Necessary when actions influence future observations  
