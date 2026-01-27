@@ -175,6 +175,16 @@ flowchart LR
 - Learn a behavior policy that maximizes cumulative reward  
 - Use stochastic policies to improve exploration and performance  
 - Define objectives around long term rewards, not single actions
+```mermaid
+flowchart TD
+    Policy["Policy π(a|s)"] --> Actions[Agent Takes Action]
+    Actions --> Env[Environment]
+    Env --> Reward[Reward Signal]
+    Env --> NextState[Next State]
+    Reward --> Update[Update Policy to Maximize Expected Return]
+    NextState --> Policy
+
+```
 
 ## Types of Algorithms
 ```mermaid
@@ -194,6 +204,26 @@ mindmap
 - Choosing an algorithm depends on data availability, model structure, and task type
 
 ## AI’s Paradox
+```mermaid
+mindmap
+  root((AI's Paradox))
+    Easy_for_Humans
+      Perception
+      Motor_Skills
+      Intuition
+    Hard_for_AI
+      Common_Sense
+      Transfer
+      Real_World_Dexterity
+    Easy_for_AI
+      Math
+      Search
+      Memory
+    Hard_for_Humans
+      Large_Scale_Computation
+      Exhaustive_Search
+
+```
 - Some tasks that are easy for humans are hard for AI  
 - Some tasks that are hard for humans are easy for AI  
 - Explained through differences in evolution and cognitive development  
