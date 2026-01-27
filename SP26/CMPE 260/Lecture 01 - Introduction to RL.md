@@ -177,6 +177,19 @@ flowchart LR
 - Define objectives around long term rewards, not single actions
 
 ## Types of Algorithms
+```mermaid
+mindmap
+  root((Reinforcement Learning Algorithms))
+    Model_Free
+      Policy_Gradient
+      Q_Learning
+    Model_Based
+      Dynamics_Learning
+      Planning
+    Offline_RL
+    Meta_RL
+
+```
 - Many algorithmic families exist due to differing problem assumptions  
 - Choosing an algorithm depends on data availability, model structure, and task type
 
@@ -187,8 +200,6 @@ flowchart LR
 - Observations from infant learning provide insights
 
 ## Summary and Recap
-```
-```
 - Reviewed definitions of RL components  
 - Reinforcement learning uses interaction, reward, and sequential decisions  
 - Deep RL scales RL methods with neural networks  
