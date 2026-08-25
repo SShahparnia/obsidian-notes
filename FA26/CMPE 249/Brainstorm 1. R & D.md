@@ -2,13 +2,6 @@
 
 ---
 ---
-> [!info] Scope Ideas below are scoped for a **1-semester, 1–3 person team project** and mapped to the four tracks from Lecture 1: **Algorithm · System · Research · Deployment**. Every idea cites a source from roughly the last few months (spring–summer 2026) so your literature survey starts from something genuinely current, not last year's SOTA. See [[CMPE249_Lecture1_Introduction|Lecture 1 notes]] for the proposal checklist.
-## Related
-
-- [[CMPE249_Lecture1_Introduction]]
-- [[CMPE249_Robotics_Project_Ideas]]
-
----
 
 ## Research / Algorithm Track — Perception & Planning
 
