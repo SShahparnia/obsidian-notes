@@ -1,5 +1,4 @@
 
-
 > [!info] Scope Narrower lens than the [[CMPE249_Project_Ideas_Brainstorm|general brainstorm]]: core robotics — SLAM, motion planning, manipulation, mobile-robot navigation, legged locomotion — rather than the broader "Physical AI" sweep (drones, exosuits, agriculture, marine, etc.). Organized by project _type_, matching how the lecture frames the four tracks: **Research** (open question, paper reproduction/extension), **Development** (systems/integration engineering), and **Robotics** (hands-on, real hardware). Pick one lane, or a Research idea paired with its Robotics counterpart for a two-phase (sim → real) project.
 
 ## Related
