@@ -1,26 +1,3 @@
----
-
-title: "Lecture 1 - Introduction to Deep Learning" course: CMPE 258-02 Deep Learning instructor: Dr. Kaikai Liu institution: San Jose State University term: Fall 2026 date: 2026-08-20 tags:
-
-- cmpe258
-- deep-learning
-- lecture-notes
-- syllabus source: "CMPE258 Lecture1 Introduction 0820.pdf"
-
----
-
-# Lecture 1 — Introduction to Deep Learning
-
-> [!info] Course info **CMPE 258-02, Deep Learning** — Dr. Kaikai Liu, Associate Professor, Dept. of Computer Engineering, SJSU 📧 kaikai.liu@sjsu.edu · 🏫 ENG257, SJSU · Fall 2026
-
-## TL;DR
-
-- Deep learning (DL) is a subfield of [[Machine Learning]] using neural networks loosely inspired by the brain; it automates [[feature extraction]] that classical ML does by hand.
-- The AI stack nests: **AI ⊃ ML ⊃ DL ⊃ LLM**, with large LLMs often also counted as **GenAI**.
-- ML flips the traditional programming model: instead of `program + data → output`, ML does `data + output → program`.
-- Modern DL systems display **[[emergence]]** and follow **[[scaling laws]]** — capability jumps unpredictably as models scale, even though loss decreases smoothly.
-- The core goal of ML/DL is **[[generalization]]**: performing well on new, unseen data, not just memorizing the training set.
-- Course grading: 5% quizzes, 15% homework, 20% midterm, 30% final, 30% team project (1–3 people).
 
 ---
 
@@ -213,12 +190,3 @@ _(Midterm + Final = 50% combined)_
 - [ ] How exactly will "meaningful contribution" be judged for the team project — novelty vs. solid execution/evaluation?
 - [ ] Which DL framework(s) will the course standardize on (PyTorch presumably — confirm)?
 - [ ] Clarify what counts as an acceptable "excused absence" and documentation.
-
-## Related
-
-- [[CMPE 258 Project Ideas]]
-- [[Machine Learning]]
-- [[Scaling Laws]]
-- [[Emergence]]
-- [[Generalization]]
-- [[Imitation Learning]]
