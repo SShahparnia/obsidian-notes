@@ -2,6 +2,14 @@
 
 ---
 ---
+> [!info] Scope Ideas below are scoped for a **1-semester, 1–3 person team project** and mapped to the four tracks from Lecture 1: **Algorithm · System · Research · Deployment**. Every idea cites a source from roughly the last few months (spring–summer 2026) so your literature survey starts from something genuinely current, not last year's SOTA. See [[CMPE249_Lecture1_Introduction|Lecture 1 notes]] for the proposal checklist.
+## Related
+
+- [[CMPE249_Lecture1_Introduction]]
+- [[CMPE249_Robotics_Project_Ideas]]
+
+---
+
 ## Research / Algorithm Track — Perception & Planning
 
 ### 1. World-model-generated edge cases for perception stress-testing
@@ -112,13 +120,53 @@ Build/evaluate a scenario dataset of highway edge cases (construction zones, mer
 
 Using public **Indy Autonomous Challenge** methods/software or a racing simulator (F1TENTH-style), benchmark a learned racing policy against a classical MPC controller at the edge of the vehicle's handling envelope — ties to the "racetrack to highway" high-speed-autonomy theme (Forbes, Feb 2026) and IAC's 2026 season at Laguna Seca.
 
+## Physical AI — Humanoid Whole-Body Control, Manipulation, Safety & Wearables
+
+> [!info] Why this section This cluster is the most literal reading of the lecture's "Physical AI" framing — humanoid bodies, hands, exosuits, and the safety cases around them — and every item here is anchored to work from **June–August 2026**, so it's about as fresh as a literature survey can get.
+
+### 25. Reproducing a unified whole-body humanoid policy
+
+**Gemini Robotics 2** made news in late July 2026 for controlling a full humanoid — legs, torso, arms, and fingers — under one policy instead of separate per-limb controllers. Reproduce a small-scale version of a unified whole-body policy on **HumanoidBench** (the RSS simulated whole-body-control benchmark) and compare it against a hierarchical/modular controller baseline on a locomotion + manipulation combo task (e.g., walk to a table and pick something up).
+
+### 26. HumanoidBench ablation and failure-mode study
+
+Rather than building a new policy, take an existing baseline on **HumanoidBench** and run a systematic ablation (observation space, reward shaping, action space) to characterize _where and why_ whole-body humanoid RL policies fail — a "negative result done carefully" project that's cheap on compute.
+
+### 27. Visual-tactile fusion for dexterous manipulation
+
+Several June–2026-era results (Frontiers' **TouchWGNN** spatio-temporal tactile perception paper, and a Feb 2026 visual-tactile training result) push dexterous hands closer to human-like manipulation by fusing touch and vision. Reproduce a small visual-tactile fusion pipeline for a grasping task and measure how much the tactile channel contributes when vision is degraded (occlusion, low light, glare).
+
+### 28. Tactile-reactive active-palm gripper for irregular/deformable objects
+
+Reproduce the core idea behind a 2026 **tactile-reactive gripper with an active palm** (npj Robotics) in simulation, and benchmark grasp success on deformable or irregularly shaped objects against a standard rigid parallel-jaw gripper baseline.
+
+### 29. Manipulation in the dark — tactile-first grasping
+
+Inspired by Columbia Engineering's dexterous hand that "operates in the dark," train a manipulation policy that relies primarily on tactile (not visual) input, and measure how gracefully grasp success degrades as illumination drops toward zero, compared to a vision-dependent baseline.
+
+### 30. Full-embodiment humanoid teleoperation for demonstration collection
+
+Reproduce a lightweight version of **Teleopit**, a full-embodiment humanoid teleoperation system published this month (arXiv:2608.01834, Aug 2026), to collect a small demonstration dataset in sim, then measure how teleop-collected data quality affects downstream VLA fine-tuning versus scripted or randomly-generated demonstrations.
+
+### 31. A "safety case" auditing harness for a physical AI agent
+
+2026 has an emerging line of work arguing physical AI's real bottleneck is now _certification_, not capability (see the CoRL 2026 "Science of Physical AI Safety" workshop and an August 2026 industry piece making exactly that argument). Build a reusable auditing checklist/harness that walks a manipulation or mobile-robot agent through autonomy tiers, enumerates failure modes, and verifies guardrails catch an injected fault — deliverable is the harness itself plus a demo of it catching a planted failure.
+
+### 32. AI-controlled soft exosuit gait/motion assistance
+
+Multiple soft-exoskeleton results landed in July 2026 (a soft exosuit restoring hand function for people with motor impairments, and a motor-free soft exosuit for walking assistance). Build or simulate a control policy that times assistance to the wearer's real-time movement, and compare against a fixed-schedule (non-adaptive) assistance baseline on timing accuracy and simulated wearer effort.
+
+### 33. Human-robot collaborative lifting with a coordinated exoskeleton + arm
+
+A June 2026 result showed a paired exoskeleton + robotic arm cutting factory lifting strain by up to 65%. Build a simulated human-robot co-lifting task and learn a coordination policy that minimizes joint load on the human, benchmarked against the human and robot arm operating independently/uncoordinated.
+
 ---
 
 ## How to pick
 
 > [!tip] Novelty check (per Lecture 1 proposal requirement) For whichever idea you shortlist: (1) pull 5–10 papers/models from the last 1–3 years, (2) run an AI novelty/feasibility audit and paste the critique into your proposal repo, (3) make sure the compute budget is realistic for a semester — prefer fine-tuning/evaluation over training from scratch.
 
-> [!note] Least/most hardware-dependent Purely simulation/dataset-based ideas (#1–4, #10–11, #16, #19, #22–24) need no physical robot. Ideas involving real deployment (#5–6, #9, #12–13, #17, #20) need at least a Jetson-class board, a small robot/drone, or a camera rig — check lab access before committing.
+> [!note] Least/most hardware-dependent Purely simulation/dataset-based ideas (#1–4, #10–11, #16, #19, #22–24, #26, #29 in-sim variant, #31–33 in-sim variant) need no physical robot. Ideas involving real deployment (#5–6, #9, #12–13, #17, #20, #27–28, #30) need at least a Jetson-class board, a small robot/drone, a camera rig, or a real tactile/dexterous hand — check lab access before committing.
 
 ## Sources consulted (Aug 2026)
 
@@ -159,3 +207,17 @@ Using public **Indy Autonomous Challenge** methods/software or a racing simulato
 - [AI Warehouse Robots Reshaping Logistics in 2026](https://www.traxtech.com/ai-in-supply-chain/ai-warehouse-robots-transforming-logistics-2026?hs_amp=true)
 - [Indy Autonomous Challenge — Laguna Seca 2026](https://www.indyautonomouschallenge.com/laguna-seca-2026)
 - [High Speed Autonomy — From Racetrack to Highway, Forbes, Feb 2026](https://www.forbes.com/sites/sabbirrangwala/2026/02/17/high-speed-autonomyfrom-racetrack-to-highway/)
+- [Gemini Robotics 2 controls full humanoids under one policy — Tech Times, Jul 2026](https://www.techtimes.com/articles/322309/20260730/gemini-robotics-2-controls-full-humanoids-legs-torso-arms-fingers-under-one-policy.htm)
+- [HumanoidBench — simulated whole-body-control benchmark (RSS)](https://humanoid-bench.github.io/)
+- [IEEE Humanoids 2026 sets labor displacement as defining theme — Tech Times, Jul 2026](https://www.techtimes.com/articles/321587/20260725/humanoid-robots-enter-factory-ieee-humanoids-2026-sets-labor-displacement-its-defining-theme.htm)
+- [TouchWGNN: spatio-temporal tactile perception for dexterous manipulation — Frontiers, 2026](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1791424/full)
+- [Robot hand approaches human-like dexterity with visual-tactile training — TechXplore, Feb 2026](https://techxplore.com/news/2026-02-robot-approaches-human-dexterity-visual.html)
+- [Tactile-reactive gripper with an active palm — npj Robotics, 2026](https://www.nature.com/articles/s44182-026-00079-y)
+- [Highly dexterous robot hand can operate in the dark — Columbia Engineering](https://www.engineering.columbia.edu/about/news/highly-dexterous-robot-hand-can-operate-dark-just-us)
+- [Teleopit: A Full-Embodiment Humanoid Teleoperation System — arXiv:2608.01834, Aug 2026](https://arxiv.org/html/2608.01834v1)
+- [Embodied AI Data Collection: Teleoperation Guide 2026](https://www.evsint.com/embodied-ai-data-collection-teleoperation-sim-to-real-2026/)
+- [The Science of Physical AI Safety — CoRL 2026 workshop](https://spais-ws.org/)
+- [The New Ceiling for Physical AI is Certification, Not Capability — Highways Today, Aug 2026](https://highways.today/2026/08/13/physical-ai-certification/)
+- [A soft exoskeleton could restore hand function — TechXplore, Jul 2026](https://techxplore.com/news/2026-07-soft-exoskeleton-function-people-motor.html)
+- [Soft exosuit shows motor-free path to wearable walking assistance — TechXplore, Jul 2026](https://techxplore.com/news/2026-07-soft-exosuit-motor-free-path.html)
+- [Exoskeleton and robotic arm reduce factory lifting strain by up to 65% — TechXplore, Jun 2026](https://techxplore.com/news/2026-06-exoskeleton-robotic-arm-factory-strain.html)
