@@ -209,15 +209,3 @@ First assignment — choose a frontier question. Submit on Canvas by deadline (A
 
 ---
 
-## My Notes / Questions
-
-- [ ] Pick a track: #algorithm-track / #system-track / #research-track / #deployment-track
-- [ ] Form team (1–3 people)
-- [ ] Start literature survey (5–10 papers, last 1–3 years)
-- [ ] Run novelty/feasibility audit before committing to a topic
-- [ ]
-
-## Related
-
-- [[CMPE249 Project Ideas Brainstorm]]
-- [[CMPE249]]
