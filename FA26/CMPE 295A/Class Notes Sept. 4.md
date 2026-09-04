@@ -2,8 +2,13 @@
 - Problem
 	- Needs, concerns, problems
 - Tutorial
-	- In this subject, what are the typical solutions
+	- In this subject, how to implement the typical solutions
 - Survey
 	- 1st paper for most PhD student
 	- Also called "review" paper
+- Model/Solution
+	- what most people do
+	- Provides solution
+- Case Study
+	- Model, Do experiment, present experimental results
 - 
